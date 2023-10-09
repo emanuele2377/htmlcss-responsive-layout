@@ -1,0 +1,284 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    margin: auto;
+	width: 100%;
+	height: 70px;
+	padding: 10px;
+	background: #0084FD;
+}
+
+.container-menu {
+	display: flex;
+	justify-content: space-around;
+}
+
+nav {
+	height: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+nav ul {
+	list-style-type: none;
+	display: flex;
+}
+
+.menu-right li {
+	padding-left: 8px;
+    color: white
+}
+
+.bottone-get {
+
+    background-color:white;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.container-demo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: white;
+    min-height: 800px;
+    margin-left: 4%;
+    margin-right: 4%;
+
+}
+
+.quadrati {
+    display: flex;
+    height: 270px;
+    width: 750px;
+    margin-left: 2%;
+    margin-top: 5%;
+    border-radius: 20px;
+    background-color:#B5DDFF;  
+}
+
+.quadrati-blu {
+
+    display: flex;
+    height: 270px;
+    width: 300px;
+    margin-top: 5%;
+    border-radius: 20px;
+    background-color: #B5DDFF;
+}
+
+.primo-quadrato {
+
+    display: flex;
+    background-color: #B5DDFF;
+    height: 270px;   
+    width: 300px;
+    margin-left: 3%;
+    border-radius: 20px;
+}
+
+.primo-quadrato {
+
+    display: flex;
+    background-color: #B5DDFF;
+    height: 270px;   
+    width: 300px;
+    margin-left: 3%;
+    border-radius: 20px;
+}
+
+.secondo-quadrato {
+
+    display: flex;
+    background-color: #B5DDFF;
+    height: 270px;   
+    width: 300px;
+    margin-left: 3%;
+    border-radius: 20px;
+}
+
+.terzo-quadrato {
+
+    display: flex;
+    background-color: #B5DDFF;
+    height: 270px;   
+    width: 300px;
+    margin-left: 3%;
+    border-radius: 20px;
+}
+
+.planning {
+    background-color: #9792E4;
+    min-height: 600px;
+}
+
+.primo-container-bianco {
+
+    min-height: 600px;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.scritte {
+    
+    text-align: center;
+}
+
+.weare{
+    color: #9792E4;
+}
+
+.primo-container-lilla{
+    margin-left: 10%;
+    margin-top: 3%;
+    min-height: 200px;
+    width: 80%;
+    background-color: #9792E4;
+    border-radius: 60px;
+}
+
+.secondo-container-lilla {
+
+    background-color: #9792E4;
+    min-height: 800px;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.benefit {
+    color: white;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.contenitore-colonne {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    min-height: 350px;
+    width: 80%;
+    margin-left: 10%;
+
+}
+
+.colonne {
+    display: flex;
+    height: 300px;
+    width: 20%;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: -10%;
+    margin-right: -10%;
+}
+
+.seconda-colonna {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    min-height: 350px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.secondo-container-bianco {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    min-height: 600px;
+    width: 100%;
+}
+
+.about-us {
+    display: flex;
+    min-height: 300px;
+    width: 80%;
+    margin-top: 5%;
+    background-color: #0084FD;
+}
+
+.terzo-container-lilla {
+    padding-top: 10%;
+    text-align: center;
+    min-height: 500px;
+    background-color: #9792E4;
+    color: white;
+}
+
+.opacity {
+ opacity: 30%;
+}
+
+.medio {
+   font-size: xx-large;
+}
+
+.grande {
+    font-size: 50px;
+color: #FDC15F;
+}
+
+.bottone {
+background-color: white;
+color: #9792E4;
+padding: 15px;
+border-radius: 10px;
+text-decoration: none;
+}
+
+.nero {
+    text-align: center;
+    min-height: 300px;
+    background-color: black;
+}
+
+.scritte-colorate {
+    color: white;
+    padding-top: 7%;
+}
+
+
+/* Mobile first */
+.container {
+    background-color: red;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*Tablet*/
+@media screen and (min-width:768px) and (max-width:991px) {
+    .container {
+        background-color: rgb(255, 136, 0);
+        width:700px;
+
+    }
+}
+/* Desktop */
+@media screen and (min-width:992px) {
+    .container {
+        background-color: rgb(230, 208, 14);
+        width: 900px;
+    }
+}
+/*Desktop Big */
+@media screen and (min-width:1200px) {
+    .container{
+       background-color: rgb(5, 236, 5);
+       width:1100px;
+    }
+}
